@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "db-postgres-hw7"
+version = "0.1.0"
+description = ""
+authors = ["lana-sviatash <sviatash.s@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.21"
+argparse = "^1.4.0"
+psycopg2 = "^2.9.9"
+alembic = "^1.12.0"
+faker = "^19.6.2"
+black = "^23.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
