@@ -317,11 +317,11 @@ def print_queries_res():
     pprint(result_1)
 
     print("\nSELECT_2:")
-    result_2 = select_2(1)
+    result_2 = select_2(3)
     pprint(result_2)
 
     print("\nSELECT_3:")
-    result_3 = select_3(1)
+    result_3 = select_3(3)
     pprint(result_3)
 
     print("\nSELECT_4:")
@@ -329,35 +329,35 @@ def print_queries_res():
     pprint(result_4)
 
     print("\nSELECT_5:")
-    result_5 = select_5(1)
+    result_5 = select_5(3)
     pprint(result_5)
 
     print("\nSELECT_6:")
-    result_6 = select_6(1)
+    result_6 = select_6(3)
     pprint(result_6)
 
     print("\nSELECT_7:")
-    result_7 = select_7(1, 1)
+    result_7 = select_7(3, 3)
     pprint(result_7)
 
     print("\nSELECT_8:")
-    result_8 = select_8(1)
+    result_8 = select_8(3)
     pprint(result_8)
 
     print("\nSELECT_9:")
-    result_9 = select_9(1)
+    result_9 = select_9(3)
     pprint(result_9)
 
     print("\nSELECT_10:")
-    result_10 = select_10(1, 1)
+    result_10 = select_10(3, 3)
     pprint(result_10)
 
     print("\nSELECT_11:")
-    result_11 = select_11(1, 1)
+    result_11 = select_11(3, 3)
     pprint(result_11)
 
     print("\nSELECT_12:")
-    result_12 = select_12(1, 1)
+    result_12 = select_12(3, 3)
     pprint(result_12)
 
 
