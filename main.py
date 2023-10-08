@@ -12,7 +12,7 @@ parser.add_argument(
 parser.add_argument(
     "--model",
     "-m",
-    choices=list(MODELS.keys()),
+    choices=list(MODELS.keys() + [m.capitalize() for m in MODELS.keys()]),
     required=True,
     help="Model to perform action on",
 )
@@ -28,7 +28,7 @@ def main():
         print("Please provide both action and model arguments.")
         parser.print_help()
         return
-
+    
     if args.action == "create":
         create_record(args.model, name=args.name)
     elif args.action == "list":
